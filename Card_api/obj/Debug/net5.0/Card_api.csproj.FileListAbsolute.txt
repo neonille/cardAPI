@@ -19,7 +19,6 @@ C:\Programming-stuff\cardAPI\cardAPI\Card_api\bin\Debug\net5.0\Swashbuckle.AspNe
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.csprojAssemblyReference.cache
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.AssemblyInfoInputs.cache
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.AssemblyInfo.cs
@@ -35,3 +34,4 @@ C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\ref\Card_api.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.pdb
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.genruntimeconfig.cache
+C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.csprojAssemblyReference.cache
