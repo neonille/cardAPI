@@ -9,11 +9,12 @@ namespace Card_api.Controllers
 	public class DeckController : Controller
 	{
 		[HttpGet]
-		[Route("asd")]
-		public ActionResult<string> New(string text)
+		[Route("new")]
+		public ActionResult<Stack<Models.Card>> New(string text)
 		{
-
-			return text +" 000 ";
+			Factories.DeckFactory df = new Factories.DeckFactory();
+			Stack<Models.Card> c = df.CreateDeck();
+			return c;
 		}
 	}
 }
