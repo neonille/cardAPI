@@ -1,2 +1,16 @@
 
 Card_api/.vs/
+
+Card_api/obj/Card_api.csproj.nuget.dgspec.json
+
+Card_api/obj/Card_api.csproj.nuget.g.props
+
+Card_api/obj/Card_api.csproj.nuget.g.targets
+
+Card_api/obj/Debug/net5.0/Card_api.assets.cache
+
+Card_api/obj/Debug/net5.0/Card_api.csprojAssemblyReference.cache
+
+Card_api/obj/project.assets.json
+
+Card_api/obj/project.nuget.cache
