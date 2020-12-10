@@ -7,6 +7,7 @@ namespace Card_api.Models
 {
 	public class Deck
 	{
-
-	}
+        public Stack<Deck> Cards { get; set; }
+        public Guid Id
+    }
 }
