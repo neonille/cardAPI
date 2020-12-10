@@ -10,19 +10,7 @@ namespace Card_api.Factories
 	{
 		public DeckFactory()
 		{
-			Stack<Card> deck = new Stack<Card>();
-			Suite[] suites = (Suite[]) Enum.GetValues(typeof(Suite));
-			Rank[] ranks =(Rank[]) Enum.GetValues(typeof(Rank));
-			foreach (Suite suit in suites)
-			{
-				foreach (Rank rank in ranks)
-				{
-					Card card = new Card();
-					card.Suite = suit;
-					card.Rank = rank;
-					deck.Push(card);
-				}
-			}
+			
 		}
 
 		public Stack<Card> CreateDeck()
