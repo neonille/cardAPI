@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Card_api.Factories;
+using Card_api.Models;
 
 namespace Card_api.Controllers
 {
@@ -12,8 +14,8 @@ namespace Card_api.Controllers
 		[Route("new")]
 		public ActionResult<Stack<Models.Card>> New(string text)
 		{
-			Factories.DeckFactory df = new Factories.DeckFactory();
-			Stack<Models.Card> c = df.CreateDeck();
+			DeckFactory deckFactory = new DeckFactory();
+			Stack<Card> c = deckFactory.InitDeck();
 			return c;
 		}
 	}
