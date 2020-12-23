@@ -6,8 +6,10 @@ namespace Card_api.Services
 {
     public class DeckService
     {
+		CardService _cardService; 
         public DeckService()
         {
+			_cardService = new CardService();
         }
 
         public Deck FillDeck(Deck deck)
@@ -22,7 +24,7 @@ namespace Card_api.Services
 					Card card = new Card();
 					card.Suite = suit;
 					card.Rank = rank;
-					card.Worth = GetWorth(rank, Game.Baccarat);
+					card.Worth = _cardService.CheckWorth(rank,Game.Baccarat);
 					deck.Cards.Push(card);
 				}
 			}
