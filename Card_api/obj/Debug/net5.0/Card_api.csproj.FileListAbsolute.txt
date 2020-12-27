@@ -34,4 +34,6 @@ C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\ref\Card_api.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.pdb
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.genruntimeconfig.cache
+C:\Programming-stuff\cardAPI\cardAPI\Card_api\bin\Debug\net5.0\jose-jwt.dll
+C:\Programming-stuff\cardAPI\cardAPI\Card_api\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Programming-stuff\cardAPI\cardAPI\Card_api\obj\Debug\net5.0\Card_api.csprojAssemblyReference.cache

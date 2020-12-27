@@ -49,7 +49,7 @@ namespace Card_api
 
 			app.UseRouting();
 
-			app.UseAuthorization();
+			//app.UseAuthorization();
 
 			app.UseEndpoints(endpoints =>
 			{
