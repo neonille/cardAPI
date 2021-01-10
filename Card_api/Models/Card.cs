@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Card_api.Models
+namespace Casino_api.Models
 {
 	public struct Card
 	{

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Card_api.Services.JwtService
+namespace Casino_api.Services.JwtService
 {
 	interface IJwtService
 	{
-		Task<string> NewSession();
-		
+		Task<string> NewSession(string id, string secret);
 	}
 }

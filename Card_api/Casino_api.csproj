@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Casino_api</AssemblyName>
+    <RootNamespace>Casino_api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

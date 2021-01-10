@@ -1,7 +1,7 @@
 ﻿using System;
-using Card_api.Models;
+using Casino_api.Models;
 
-namespace Card_api.Services
+namespace Casino_api.Services
 {
     public class CardService
     {

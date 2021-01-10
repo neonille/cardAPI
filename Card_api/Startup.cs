@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Card_api
+namespace Casino_api
 {
 	public class Startup
 	{

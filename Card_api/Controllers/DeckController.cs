@@ -3,19 +3,30 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Card_api.Models;
+using Casino_api.Models;
+using Microsoft.Extensions.Configuration;
+using Casino_api.Services;
 
-namespace Card_api.Controllers
+namespace Casino_api.Controllers
 {
 	public class DeckController : Controller
 	{
+		public IConfiguration _config;
+
+		public DeckController(IConfiguration config)
+		{
+			_config = config;
+		}
+
 		[HttpGet]
 		[Route("new")]
 		public async Task<IActionResult> New(string text)
 		{
-			Card_api.Services.JwtService.JwtService js = new Services.JwtService.JwtService();
-			var f = js.NewSession();
-			return Ok(f);
+
+			DeckService ds = new DeckService();
+			Deck d = new Deck();
+			ds.FillDeck(d, false);
+			return Ok(ds.Shuffle(d));
 
 			//DeckFactory deckFactory = new DeckFactory();
 			//Stack<Card> c = deckFactory.InitDeck();

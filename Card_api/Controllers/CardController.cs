@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Card_api.Controllers
+namespace Casino_api.Controllers
 {
 	public class CardController : Controller
 	{

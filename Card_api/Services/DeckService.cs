@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Card_api.Models;
+using Casino_api.Models;
 
-namespace Card_api.Services
+namespace Casino_api.Services
 {
     public class DeckService
     {
@@ -12,11 +12,12 @@ namespace Card_api.Services
 			_cardService = new CardService();
         }
 
-        public Deck FillDeck(Deck deck)
+        public Deck FillDeck(Deck deck, bool joker)
         {
 			deck.Cards = new Stack<Card>();
 			Suite[] suites = (Suite[])Enum.GetValues(typeof(Suite));
 			Rank[] ranks = (Rank[])Enum.GetValues(typeof(Rank));
+			if(!joker) Array.Resize(ref ranks, ranks.Length -1);
 			foreach (Suite suit in suites)
 			{
 				foreach (Rank rank in ranks)
@@ -29,6 +30,18 @@ namespace Card_api.Services
 				}
 			}
 			return deck;
+		}
+
+		public string Shuffle(Deck deck)
+		{
+			Card[] cardTemp = new Card[deck.Cards.Count];
+			int count = 0;
+			while (deck.Cards.Count > 0)
+			{
+				cardTemp[count] = deck.Cards.Pop();
+				count++;
+			}
+			return "";
 		}
     }
 }

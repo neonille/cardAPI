@@ -3,9 +3,9 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Card_api.Models;
+using Casino_api.Models;
 
-namespace Card_api.Data
+namespace Casino_api.Data
 {
 	public class Decks
 	{
